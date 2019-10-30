@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+background-color: #303A46;
+font-family: PT Sans Narrow ;
+
+}
+
+.contant{
+width: 80%;
+margin: auto;
+height: 729px; 
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;    
+}
+
+#title {
+color: white;
+font-size: 40px;
+align-self: center;
+}
+
+.link a{
+text-decoration: none;
+}
+
+.link a:hover{
+	cursor: pointer;
+
+}
+#book:hover{
+	cursor: pointer;
+	background-color:grey;
+	color: #CFBE91;
+	
+}
+#book{
+	padding: 10px 5px;
+	color:#303A46;
+	background-color: #48FF80;
+	border-radius: 0 0px 10px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+/*
+nav css for index page
+*/
+.nav{
+	display: flex;
+	justify-content: center;
+	height: 45px;
+
+}
+ul{
+	font-size: 20px;
+	display: inherit;
+}
+
+.nav ul li{
+	list-style: none;
+	margin: 5px;
+
+}
+
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px; 
+}
+.nav ul li:hover  a{
+	background-color: #48FF80;
+	color: #303A46;
+	cursor: pointer;
+	border-radius: 0 0 15px 15px;
+}
+
+
+/*
+footer
+*/
+
+.main-footer{
+	display: flex;
+	background-color: white;
+	border-radius: 0 0 15px 15px;
+	border-top: 3px solid #CFBE91; 
+}
+
+
+.footer{
+	margin: 10px;
+	color: #303A46;
+	padding: 0 40px;
+
+}
+
+.bottom-footer div{
+	height: 20px;
+	display: inline-flex;
+	font-size: 14px;
+	color: white;
+}
+.main-footer h3{
+	color: #CFBE91;
+
+}
+.main-footer h4{
+	text-transform: capitalize;
+	font-weight: normal;
+	padding: 0 0 5px 0;
+}
+
+#location{
+float: right;
+} 
+
+.footer a h4:hover{
+	color: #303A46;
+	background-color: #48FF80;
+
+}
+
+h4:hover{
+	color: #303A46;
+	background-color: #48FF80;
+}
+

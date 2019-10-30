@@ -1,0 +1,82 @@
+
+/*
+About us 
+*/
+.info-container{
+	background-image: url("/img/Aboutus/wallback.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: 100% 
+
+}
+
+.aboutus p{
+	color: white;
+	text-align:justify;
+	font-size: 2.5em;
+	width: 660px;
+	padding: 50px;
+}
+
+.info-container h1{
+	padding: 10px;
+	color: white;
+}
+
+.location{
+	background-image: url("/img/Aboutus/wallback2.jpg");
+	background-repeat: no-repeat;
+	height: 87%;
+	background-size: 100% 
+
+}
+
+.info{
+	width: 100%;
+	padding: 60px 0 0 10px;
+}
+.info h2 a{
+
+	color: white;
+	font-size:1.5em;
+	text-decoration: none;
+
+}
+
+.info h2 a:hover{
+	
+	cursor: pointer;
+	color: #48FF80;
+}
+/*
+button
+*/
+.button ul {
+
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+.button ul li{
+	padding: 10px;
+	color:#303A46;
+	background-color: #48FF80;
+	border-radius:10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px;
+}
+.button ul li:hover{
+
+	background-color: #303A46;
+	color: white;
+	cursor: pointer;
+
+}
+
+
+a{
+	text-decoration: none;
+	color: #303A46;
+}

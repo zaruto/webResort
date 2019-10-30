@@ -1,0 +1,93 @@
+
+/*
+about css
+*/
+
+.about{
+
+	background-color: white;
+	width: 100%;
+	border-radius: 5px;
+	padding-bottom: 20px;
+	
+}
+.about h2{
+	text-align: center;
+	background-color: #48FF80;
+	text-transform: uppercase;
+	color: #303A46;
+}
+a{
+	text-decoration: none;
+	color: #303A46;
+}
+
+.about h2 a:hover{
+	color: white;
+	cursor: pointer;
+	
+}
+
+.about p{
+
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.contant-container{
+	height: auto;
+	display: flex;
+	padding: 20px;
+}
+.contant-container img{
+	align-self: center;
+	margin-right: 20px; 
+	border-radius: 5px;
+}
+.contant-container img:hover{
+
+	cursor: pointer;
+
+}
+.contant-container h2 a{
+	color: #48FF80;
+	font-size: 40px;
+
+}
+
+.contant-container h2 a:hover {
+	
+	color: white;
+	cursor: pointer;
+
+}
+.info h4{
+	background-color: #48FF80;
+	padding: 5px 20px;
+	margin: auto;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 5px;
+	font-weight: normal;
+}
+.contant-container p{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+.line{
+
+	color: #BEB6B6;
+	border: 2px solid;
+	width: 90%;
+	margin:auto;
+
+}
+
+img:hover{
+
+	opacity: .5;
+	transition: .9s;
+	cursor: pointer;
+}
